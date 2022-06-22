@@ -2,7 +2,16 @@
     font-family: Museo Sans, sans-serif;
 }
 
-@import "variables";
-@import "mixins";
-@import "general";
+@import "base/variables";
+@import "base/mixins";
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+
+
 @import "media";
